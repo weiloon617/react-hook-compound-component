@@ -1,0 +1,34 @@
+.app {
+  padding: 10px;
+}
+
+.tab-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.tab {
+  color: #ccc;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.active-tab {
+  color: #333;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.disabled-tab {
+  color: #f2f2f2;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.tab-panels {
+  margin-top: 20px;
+}
